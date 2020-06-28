@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:key="Tema"
+        android:title="Tema Seciniz"
+        android:defaultValue="0"
+        android:summary="Farkli renkte temalar secebilirsiniz"
+        android:entries="@array/temalar"
+        android:entryValues="@array/tema_id"
+
+
+        />
+</PreferenceScreen>

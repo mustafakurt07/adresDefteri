@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item
+        android:title="Ayarlar"
+        android:id="@+id/ayarlar"
+        android:showAsAction="ifRoom|withText"
+        tools:ignore="AppCompatResource"
+        android:orderInCategory="0"
+        android:icon="@android:drawable/ic_menu_preferences"
+        />
+
+</menu>
